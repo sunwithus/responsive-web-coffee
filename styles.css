@@ -121,3 +121,12 @@ a[href^="mailto:"]:before {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  body {
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+}
