@@ -106,3 +106,18 @@ a[href^="mailto:"]:before {
   content: "\2709";
   /*margin-right: 0.5em;*/
 }
+
+@media screen and (min-width: 700px) {
+  .item p img {
+    width: 50%;
+    float: left;
+  }
+
+
+}
+
+@media screen and (max-width: 700px) {
+  .item p img {
+    width: 100%;
+  }
+}
